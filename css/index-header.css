@@ -1,0 +1,30 @@
+#nav-bar {
+    width: 35vw;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header {
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+@media (min-width: 500px) {
+    .product {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+#header-img {
+    width: 50%;
+    height: 50%;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
